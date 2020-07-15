@@ -1,0 +1,85 @@
+html {
+    font-size: 100%;
+}
+
+* {
+    font-family: 'Neuton', serif;
+    margin: 0;
+}
+
+header {
+    background: rbg(255,255,255)
+}
+
+.pagename {
+    background: #fff;
+    padding: 20px;
+    font-size: 2vw;
+}
+
+body{
+    background: rgb(220,220,220);
+}
+
+.post-container {
+    background: rgb(235,235,235);
+    width: 80%;
+	display: flex;
+    flex-flow: column;
+    margin: auto;
+    align-items: center;
+}
+
+.post {
+    background: #fff;
+    border: 2px solid rgb(214,50,48);
+    border-radius: 5px;
+    margin: 10px;
+    flex-grow: 1;
+    width: 60%;
+    max-width: 600px;
+    padding: 5px;
+    font-size: 4rem;
+}
+
+.post-title {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    margin-bottom: 5px;
+    color: rgb(50,50,50);
+    font-size: 1.5vw;
+}
+
+.post-title span {
+    color: rgb(120,120,120);
+}
+
+.post-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 600px;
+    max-height: 400px;
+    margin: auto;
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: auto;
+    object-fit: cover;
+}
+
+.post-comm {
+    height: 80px;
+    max-width: 600px;
+    margin: auto;
+    padding: 10px;
+    font-size: 1.2rem;
+}
+
+.post-comm strong {
+    font-size: 1.2rem;
+}
